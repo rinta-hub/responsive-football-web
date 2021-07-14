@@ -1,0 +1,91 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    body:0;
+}
+/*---------------
+  players top
+ ---------------- */
+.top-part{
+  display:flex;
+  background: #2D25A0;
+
+}
+.half-width{
+  width: 50%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left:10% ;
+  margin-right: 5%;
+}
+.half-width img{
+ width: 100%;
+ margin-right: 10%;
+}
+.font-color{
+  font-size: 50px;
+  color: #FFFFFF;
+}
+.link-button{
+  text-decoration: none;
+  background-color: #E02C6D;
+  color: white;
+  font-weight: 700;
+  padding:10px 30px ;
+
+}
+/* players area */
+.players{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  padding: 3%;
+}
+.player{
+  margin-bottom: 28px;
+  margin-left: 30px;
+  padding: 5%;
+ 
+  background: #FFFFFF;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  
+
+}
+img{
+  width:100%;
+}
+.top-players{
+  margin-top: 5%;
+}
+h6{
+  color: darkgrey;
+}
+/* bottom-part */
+h1{
+  font-size: 50px;
+}
+
+.last-part{
+  display: flex;
+}
+
+/* footer part */
+
+.footer-img{
+  width: 30%;
+}
+.icon-img{
+  width: 15%;
+  padding-left:10%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap:10px ;
+}
+.footer-font{
+ text-align: center;
+}
+.footer-blog{
+  margin-left: 40%;
+  margin-top: 2%;
+}
