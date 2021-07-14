@@ -2,7 +2,9 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
 }
-/* header part */
+/*---------------
+   header part 
+ ---------------*/
 nav ul{
   display: flex;
 }
@@ -23,9 +25,9 @@ nav li a{
 header{
   padding-top: 1%;
 }
-/*---------------
-  players detail
- ---------------- */
+/*----------------
+  top players live
+ ----------------- */
 
  .container{
   background: #2D25A0;
@@ -36,12 +38,9 @@ header{
  }
 .top-part{
   display:flex;
-
 }
 .half-width{
   width: 50%;
-  /* margin-top: 5%; */
-  /* margin-bottom: 5%; */
   margin-left:10% ;
   margin-right: 5%;
 }
@@ -61,7 +60,9 @@ header{
   padding:10px 30px ;
 
 }
-/* players area */
+/* ------------------
+    players area 
+    ----------------*/
 .players{
   display:grid;
   grid-template-columns: repeat(3, 1fr);
@@ -89,7 +90,9 @@ img{
 h6{
   color: darkgrey;
 }
-/* bottom-part */
+/*-----------
+  bottom-live 
+  ------------*/
 h1{
   font-size: 50px;
 }
@@ -103,7 +106,9 @@ hr{
  
 }
 
-/* footer part */
+/*---------------
+ footer part 
+ ---------------*/
 
 .footer-img{
   width: 30%;
@@ -114,27 +119,46 @@ hr{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap:10px ;
+  color:#0b496d;
+}
+.icon-img :hover{
+  color: rgb(228, 33, 108);
 }
 .footer-font{
  text-align: center;
- color:#0a5c8b;
+ color:#135c86;
 
 }
 .footer-blog{
   margin-left: 40%;
   margin-top: 2%;
 }
-/* media queries */
-/* mobile devices */
-@media only screen and (max-width:688){
+/*---------------
+ media queries
+ ---------------- */
+/* mobile device */
+@media only screen and (max-width:688px){
+
   .container{
     width: 100%;
   }
-  .top-part .players{
-    grid-template-columns: repeat(1,1frs);
-
-  }
-  .player{
+  .top-part {
+    display: flex;
     flex-direction: column;
   }
+  .last-part{
+    display: flex;
+    flex-direction: column;
+  }
+   
+  .player{
+    width: 330px;
+    height: 474px;
+    justify-content: center;
+  }
+ .half-width{
+  
+  top: 7082px;
+ }
+
 }
